@@ -39,3 +39,4 @@ pnpm dev
 - No OAuth social verification — admin eyeballs the claimed link by hand, as decided.
 - Auction winners pay through the `/mock-pay` fallback even when Stripe is configured for fixed-price slots — wiring a real Stripe Checkout session for the declared winner is a quick follow-up, not done yet.
 - No auction close time enforcement yet (`auctionEndsAt` exists on the schema but nothing reads it) — admin manually decides when to close an auction.
+
